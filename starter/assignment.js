@@ -29,6 +29,21 @@ console.log(nigeria > finLand);
 let description = 'Portugal is in Europe, and its 11 million people speak portuguese';
 console.log(description);
 
+// challenge 1
+let marksWeight = 78;
+let marksHeight = 1.69; 
+console.log(marksWeight / marksHeight ** marksWeight);
+ const markBIM = 1.3089758763182786e-16;
+  
+
+let jonhsWeight = 85;
+let jonhsHeight = 1.76;
+console.log(jonhsWeight / jonhsWeight ** jonhsWeight);
+const jonhBIM = 8.488095164010142e-163;
+ 
+const markHigherBMI = markBIM > jonhBIM;
+console.log(markHigherBMI);
+
 
 
 

@@ -46,17 +46,17 @@
 
 
 ///These are math operator
-const now = 2037;
-const ageJuliet = now - 1998;
-const ageSarah = now - 2018;
-console.log(ageJuliet, ageSarah);
+// const now = 2037;
+// const ageJuliet = now - 1998;
+// const ageSarah = now - 2018;
+// console.log(ageJuliet, ageSarah);
 
-console.log(ageJuliet * 2, ageJuliet / 10, 2 ** 3);
-// 2 ** 3 means 2 to the power of 3 = 2 * 2 * 
+// console.log(ageJuliet * 2, ageJuliet / 10, 2 ** 3);
+// // 2 ** 3 means 2 to the power of 3 = 2 * 2 * 
 
-const firstName = 'Juliet';
-const  lastName = 'Irorere';
-console.log(firstName + ' ' + lastName);
+// const firstName = 'Juliet';
+// const  lastName = 'Irorere';
+// console.log(firstName + ' ' + lastName);
 
 //These are assignment operators
 let x = 10 + 5; //15
@@ -68,10 +68,23 @@ console.log(x);
 
 
 // comparison operator
-console.log(ageJuliet > ageSarah);  // <, >, >=, <=,
-console.log(ageSarah >= 18);
+// console.log(ageJuliet > ageSarah);  // <, >, >=, <=,
+// console.log(ageSarah >= 18);
 
-const isFullAge = ageSarah >=18;
+// const isFullAge = ageSarah >=18;
 
-console.log(now - 1998 > now - 2018);
+// console.log(now - 1998 > now - 2018);
+
+const firstName = 'JUliet';
+const job = 'Developer';
+const birthYear = 1998;
+const year = 2037;
+
+const juliet = "I'm" + ' ' + firstName + ', a' + ' ' + (year - birthYear) + 'year old' + ' ' + job + '!';
+console.log(juliet);
+
+const julietNew = `I'm ${firstName}, a ${year-birthYear} year old ${job}!`;
+console.log(julietNew);
+
+
 
