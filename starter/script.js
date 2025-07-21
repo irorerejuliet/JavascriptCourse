@@ -75,16 +75,95 @@ console.log(x);
 
 // console.log(now - 1998 > now - 2018);
 
-const firstName = 'JUliet';
-const job = 'Developer';
-const birthYear = 1998;
-const year = 2037;
+// template litrals
+// const firstName = 'JUliet';
+// const job = 'Developer';
+// const birthYear = 1998;
+// const year = 2037;
 
-const juliet = "I'm" + ' ' + firstName + ', a' + ' ' + (year - birthYear) + 'year old' + ' ' + job + '!';
-console.log(juliet);
+// const juliet = "I'm" + ' ' + firstName + ', a' + ' ' + (year - birthYear) + 'year old' + ' ' + job + '!';
+// console.log(juliet);
 
-const julietNew = `I'm ${firstName}, a ${year-birthYear} year old ${job}!`;
-console.log(julietNew);
+// const julietNew = `I'm ${firstName}, a ${year-birthYear} year old ${job}!`;
+// console.log(julietNew);
+
+// const firstName = "Annable";
+// const job = "Banker";
+// const address = "her office is close to the cafe";
+// const birthYear = 1996;
+// const year = 2025;
+
+// const AnnableNew = `This is ${firstName}, a ${job}, ${address} and she is ${year - birthYear} years old!` 
+// console.log(AnnableNew);
+
+// if statement
+// const age = 15;
+// if (age >= 18) {
+//     console.log('Sarah can start driving license');
+// }else{
+//     const yearsLeft = 18 -age;
+//     console.log(`Sarah is too young. Wait another ${yearsLeft} years :`);
+    
+// }
+
+
+// const birthYear = 1991;
+
+// let century
+// if(birthYear <=2000){
+//      century =20;
+// }else {
+//      century = 21
+// }
+// console.log(century)
+
+// type conversion
+const inputYear = '1991';
+console.log(Number(inputYear) + 18)
+
+console.log(Number('Jonas'));
+
+console.log(String(23));
+
+// type coercion
+console.log('I  am' + 23  + "years old");
+console.log('23' - '10' - 3 );
+console.log('23' / '2');
+ 
+
+let n = '1' + 1;
+n = n - 1;
+console.log(n);
+
+// 5 falsy values: 0, '', undefined, null, NaN
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean('Juliet'));
+console.log(Boolean({}));
+
+const money = 0;
+if(money){
+    console.log("Don't spend it all"); 
+}else {
+    console.log('You should get a job');
+}
+
+let height = 123;
+if(height){
+    console.log('YAY! Height is defined');
+} else{
+    console.log('Height is UNDEFINED');
+}
 
 
 
+const age = 18;
+if (age ===18) console.log('You just become an adult : D(Strict)');
+if (age === 18) console.log("You just become an adult : D (loose)");
+
+
+const favorite = prompt("What your favorite number?");
+console.log(favorite);
+console.log(typeof favorite);
+
+if()

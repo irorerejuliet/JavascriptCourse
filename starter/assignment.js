@@ -30,20 +30,25 @@ let description = 'Portugal is in Europe, and its 11 million people speak portug
 console.log(description);
 
 // challenge 1
-let marksWeight = 78;
-let marksHeight = 1.69; 
-console.log(marksWeight / marksHeight ** marksWeight);
- const markBIM = 1.3089758763182786e-16;
-  
+let markWeight = 78;
+let markHeight = 1.69; 
+const markBMI = markWeight / markHeight ** 2;
 
-let jonhsWeight = 85;
-let jonhsHeight = 1.76;
-console.log(jonhsWeight / jonhsWeight ** jonhsWeight);
-const jonhBIM = 8.488095164010142e-163;
+let johnWeight = 85;
+let johnHeight = 1.76;
+const johnBMI = johnWeight / johnHeight ** 2;
  
-const markHigherBMI = markBIM > jonhBIM;
+const markHigherBMI = markBMI > johnBMI;
 console.log(markHigherBMI);
-
+ 
+if (markBMI > johnBMI) {
+    console.log(`Mark's BMI (${markBMI}) is greater than john's (${johnBMI})`)
+} else{
+    console.log(
+      `Johns BMI (${8.488095164010142e-163}) is greater than Mark's (${1.3089758763182786e-16})`
+    );
+    
+}
 
 
 
