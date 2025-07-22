@@ -59,11 +59,11 @@
 // console.log(firstName + ' ' + lastName);
 
 //These are assignment operators
-let x = 10 + 5; //15
-x += 10; // is the same thimg as x = x + 10 = 25
-x *= 4; //is the same thing as x = x * 4 = 100
-x++;  // x = x + 1
-console.log(x);
+// let x = 10 + 5; //15
+// x += 10; // is the same thimg as x = x + 10 = 25
+// x *= 4; //is the same thing as x = x * 4 = 100
+// x++;  // x = x + 1
+// console.log(x);
 
 
 
@@ -118,52 +118,77 @@ console.log(x);
 // console.log(century)
 
 // type conversion
-const inputYear = '1991';
-console.log(Number(inputYear) + 18)
+// const inputYear = '1991';
+// console.log(Number(inputYear) + 18)
 
-console.log(Number('Jonas'));
+// console.log(Number('Jonas'));
 
-console.log(String(23));
+// console.log(String(23));
 
-// type coercion
-console.log('I  am' + 23  + "years old");
-console.log('23' - '10' - 3 );
-console.log('23' / '2');
+// // type coercion
+// console.log('I  am' + 23  + "years old");
+// console.log('23' - '10' - 3 );
+// console.log('23' / '2');
  
 
-let n = '1' + 1;
-n = n - 1;
-console.log(n);
+// let n = '1' + 1;
+// n = n - 1;
+// console.log(n);
 
 // 5 falsy values: 0, '', undefined, null, NaN
-console.log(Boolean(0));
-console.log(Boolean(undefined));
-console.log(Boolean('Juliet'));
-console.log(Boolean({}));
+// console.log(Boolean(0));
+// console.log(Boolean(undefined));
+// console.log(Boolean('Juliet'));
+// console.log(Boolean({}));
 
-const money = 0;
-if(money){
-    console.log("Don't spend it all"); 
-}else {
-    console.log('You should get a job');
+// const money = 0;
+// if(money){
+//     console.log("Don't spend it all"); 
+// }else {
+//     console.log('You should get a job');
+// }
+
+// let height = 123;
+// if(height){
+//     console.log('YAY! Height is defined');
+// } else{
+//     console.log('Height is UNDEFINED');
+// }
+
+
+
+// const age = 18;
+// if (age ===18) console.log('You just become an adult : D(Strict)');
+// if (age === 18) console.log("You just become an adult : D (loose)");
+
+
+// const favorite = prompt("What your favorite number?");
+// console.log(favorite);
+// console.log(typeof favorite);
+
+// Boolean logic
+const hasDriversLicense = true; //A
+const hasGoodVision = true; //B
+console.log(hasDriversLicense && hasDriversLicense);
+console.log(hasDriversLicense || hasDriversLicense);
+console.log(!hasDriversLicense);
+
+
+const shouldDrive = hasDriversLicense && hasGoodVision;
+
+// if(hasDriversLicense && hasGoodVision){
+//     console.log('Sarah is able to drive!');
+// } else {
+//     console.log('Someone else should drve...');
+    
+// }
+
+const isTired = false // c 
+console.log(hasDriversLicense && hasGoodVision && isTired);
+
+
+if (hasDriversLicense && hasGoodVision && !isTired) {
+  console.log("Sarah is able to drive!");
+} else {
+  console.log("Someone else should drve...");
 }
-
-let height = 123;
-if(height){
-    console.log('YAY! Height is defined');
-} else{
-    console.log('Height is UNDEFINED');
-}
-
-
-
-const age = 18;
-if (age ===18) console.log('You just become an adult : D(Strict)');
-if (age === 18) console.log("You just become an adult : D (loose)");
-
-
-const favorite = prompt("What your favorite number?");
-console.log(favorite);
-console.log(typeof favorite);
-
-if()
