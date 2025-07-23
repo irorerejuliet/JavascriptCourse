@@ -54,18 +54,29 @@
 
 
 
-const dolphins = 96 + 108 + 89;
-const koalas = 88 + 91 + 110;
-console.log(dolphins, koalas);
+// const scoreDolphins = (96 + 108 + 89) / 3;
+// const scorekoalas = (88 + 91 + 110) /3;
+// console.log(scoreDolphins, scorekoalas);
 
-const scoreDolphins = 293;
-const scorekoalas = 298;
  
-if (scoreDolphins >= scorekoalas) {
-  console.log("Dolphins win the trophy");
-}else  if(scorekoalas >= scoreDolphins){
-  console.log("Koalas win the trophy");
-} else {
-  console.log('Both win the trophy');
+// if (scoreDolphins > scorekoalas) {
+//   console.log("Dolphins win the trophy");
+// }else  if(scorekoalas >= scoreDolphins){
+//   console.log("Koalas win the trophy");
+// } else if (scoreDolphins === scorekoalas){
+//   console.log('Both win the trophy');
   
-}
+// }
+
+//Bonus 2
+// const scoreDolphins = (96 + 112 + 101) / 3;
+// const scorekoalas = (109 + 95 + 123) / 3;
+// console.log(scoreDolphins, scorekoalas);
+
+// if (scoreDolphins > scorekoalas) {
+//   console.log("Dolphins win the trophy");
+// } else if (scorekoalas >= scoreDolphins) {
+//   console.log("Koalas win the trophy");
+// } else if (scoreDolphins === scorekoalas) {
+//   console.log("Both win the trophy");
+// }
