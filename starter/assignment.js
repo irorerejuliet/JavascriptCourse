@@ -80,3 +80,29 @@
 // } else if (scoreDolphins === scorekoalas) {
 //   console.log("Both win the trophy");
 // }
+
+
+// Ternary operator
+// const bill = 275 * 20 / 100;
+// const tip = 41.25 * 20 / 100;
+// console.log(bill + tip);
+
+// let bill_tip
+// if(bill > tip || bill >= tip){
+//     console.log(biil)
+// }else{
+//     console.log(tip);
+    
+// }
+
+// const bill = 275;
+// const tip = 
+
+
+// const javascript = 'Amazing'
+// if (javascript ===  'Amazing') alert("Let's learn Javascript");
+
+// 40 + 8 + 23 - 10;
+
+// const totalHours = 40 + 8 + 23 - 10;
+// console.log(totalHours);

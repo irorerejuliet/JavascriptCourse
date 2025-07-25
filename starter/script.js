@@ -194,7 +194,7 @@
 // }
 
 // switch statement
-const day = 'monday';
+// const day = 'monday';
 
 switch(day){
   case 'monday':
@@ -216,7 +216,22 @@ switch(day){
           console.log('Enjoy the weekend  :D');
           break;
           default:
-            console.log('Not a valid day!');
-            
-          
+            console.log('Not a valid day!');                
 }
+
+const age = 23;
+// age >= 18  ? console.log('i like to drink wine') : console.log('i like to drink water');
+
+//  const drink =  age >= 18 ? 'wine' : 'water';
+//   console.log(drink);
+  
+//   let drink2;
+//   if(age >= 18){
+//     drink2 = 'wine';
+//   }else{
+//     drink2 = 'water';
+//   }
+//   console.log(drink2);
+  
+//  console.log(`i like to drink ${age >= 18 ? 'wine' : 'water'}`);
+ 
